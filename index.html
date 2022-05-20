@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FCC: Product Landing Page</title>
+    <meta name="theme-color" content="#2b2b35">
     <link rel="icon" type="image/x-icon" href="./img/Area.png">
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="https://kit.fontawesome.com/1bc3d3d41c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header__info">
+    <header class="fixed">
+        <div class="fixed__info">
             <div>
-                <a href="#"><img src="./img/Area.png" alt="" class="header__img"></a>
+                <a href="#"><img src="./img/Area.png" alt="" class="fixed__img"></a>
             </div>
-            <div class="header__details">
-                <h1 class="header__top">
+            <div class="fixed__details">
+                <h1 class="fixed__top">
                     <a href="#">FCC: Product Landing Page</a>
                 </h1>
-                <div class="header__bottom">
+                <div class="fixed__bottom">
                     <a href="#" class="link-1">freeCodeCamp.org</a>
                     <a href="#" class="link-2"><span class="span-1">+</span><span class="span-2">Follow</span></a>
                 </div>
             </div>
         </div>
             
-        <ul class="header__list">
-            <li class="header__item">Love</li>
-            <li class="header__item">View in editor</li>
-            <li class="header__item header__item-3">Sign up</li>
-            <li class="header__item">Login</li>
+        <ul class="fixed__list">
+            <li class="fixed__item fixed__item-1"><img src="./img/download-removebg-preview.png" alt="" class="fixed__image"></li>
+            <li class="fixed__item">View in editor</li>
+            <li class="fixed__item fixed__item-3">Sign up</li>
+            <li class="fixed__item">Login</li>
         </ul>
     </header>
     
-    <nav class="nav">
+    <nav class="nav" id="navbar">
         <div class="nav__image-box">
             <img src="./img/product-landing-page-logo.png" alt="img" class="nav__image">
         </div>
@@ -52,9 +53,9 @@
             <h2>Handcrafted, home-made masterpieces</h2>
         </div>
 
-        <form action="" class="form">
-            <input type="email" class="form__input" placeholder="Enter your email address">
-            <submit class="submit">Get Started</submit>
+        <form action="https://www.freecodecamp.com/email-submit" class="form" id="form">
+            <input type="email" name="email" class="form__input" placeholder="Enter your email address">
+            <submit class="submit" id="submit">Get Started</submit>
         </form>
 
         <section class="features">
